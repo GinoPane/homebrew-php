@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702ApcuBc < AbstractPHP702Extension
+class Php702ApcuBc < AbstractPhp702Extension
   init
   desc "APC User Cache - BC"
   homepage "https://pecl.php.net/package/apcu_bc"
@@ -15,7 +15,7 @@ class PHP702ApcuBc < AbstractPHP702Extension
     sha256 "7e2b62455334fcfb60f3750464709f8b0f68181764a65c2fac5bdaf92c839bba" => :mavericks
   end
 
-  depends_on "PHP702-apcu"
+  depends_on "Php702-apcu"
 
   def install
     Dir.chdir "apcu_bc-#{version}" unless build.head?
@@ -29,7 +29,7 @@ class PHP702ApcuBc < AbstractPHP702Extension
 
     # link in the apcu extension headers
     mkdir_p "ext/apcu"
-    cp Dir.glob("#{Formula["PHP702-apcu"].opt_prefix}/include/*.h"), "ext/apcu/"
+    cp Dir.glob("#{Formula["Php702-apcu"].opt_prefix}/include/*.h"), "ext/apcu/"
 
     system "./configure", "--prefix=#{prefix}",
                           phpconfig,

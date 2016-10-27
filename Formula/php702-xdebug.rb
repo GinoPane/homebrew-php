@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Xdebug < AbstractPHP702Extension
+class Php702Xdebug < AbstractPhp702Extension
   init
   desc "Provides debugging and profiling capabilities."
   homepage "http://xdebug.org"

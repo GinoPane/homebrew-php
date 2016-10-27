@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Scrypt < AbstractPHP702Extension
+class Php702Scrypt < AbstractPhp702Extension
   init
   desc "PHP wrapper for the scrypt hashing algorithm"
   homepage "https://github.com/DomBlack/php-scrypt"

@@ -216,12 +216,12 @@ class AbstractPhp56Extension < AbstractPhpExtension
   end
 end
 
-class AbstractPHP702Extension < AbstractPhpExtension
-  include AbstractPhpVersion::PHP702Defs
+class AbstractPhp702Extension < AbstractPhpExtension
+  include AbstractPhpVersion::Php702Defs
 
   def self.init opts=[]
     super()
-    depends_on "PHP702" => opts if build.with?('homebrew-php')
+    depends_on "Php702" => opts if build.with?('homebrew-php')
   end
 end
 

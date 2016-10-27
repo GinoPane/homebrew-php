@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Yaml < AbstractPHP702Extension
+class Php702Yaml < AbstractPhp702Extension
   init
   desc "YAML-1.1 parser and emitter"
   homepage "https://pecl.php.net/package/yaml"

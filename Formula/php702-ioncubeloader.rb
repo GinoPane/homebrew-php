@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Ioncubeloader < AbstractPHP702Extension
+class Php702Ioncubeloader < AbstractPhp702Extension
   init
   desc "Loader for ionCube Secured Files"
   homepage "http://www.ioncube.com/loaders.php"

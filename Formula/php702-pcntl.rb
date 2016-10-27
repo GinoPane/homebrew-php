@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Pcntl < AbstractPHP702Extension
+class Php702Pcntl < AbstractPhp702Extension
   init
   desc "Process Control support"
   homepage "http://php.net/manual/en/book.pcntl.php"

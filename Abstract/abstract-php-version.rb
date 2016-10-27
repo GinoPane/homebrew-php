@@ -50,7 +50,7 @@ class AbstractPhpVersion < Formula
                       }
   end
 
-  module PHP702Defs
+  module Php702Defs
     PHP_SRC_TARBALL = 'https://php.net/get/php-7.0.2.tar.bz2/from/this/mirror'
     PHP_GITHUB_URL  = 'https://github.com/php/php-src.git'
     PHP_VERSION     = '7.0.2'

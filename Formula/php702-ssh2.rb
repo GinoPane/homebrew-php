@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Ssh2 < AbstractPHP702Extension
+class Php702Ssh2 < AbstractPhp702Extension
   init
   desc "Provides bindings to the functions of libssh2"
   homepage "https://pecl.php.net/package/ssh2"

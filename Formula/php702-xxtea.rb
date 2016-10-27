@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Xxtea < AbstractPHP702Extension
+class Php702Xxtea < AbstractPhp702Extension
   init
   desc "XXTEA encryption algorithm extension for PHP."
   homepage "https://pecl.php.net/package/xxtea"

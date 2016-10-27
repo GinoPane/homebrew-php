@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702PdoDblib < AbstractPHP702Extension
+class Php702PdoDblib < AbstractPhp702Extension
   init
   desc "A unified Sybase-DB style driver for PDO"
   homepage "https://github.com/php/php-src/tree/master/ext/pdo_dblib"

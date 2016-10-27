@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Gearman < AbstractPHP702Extension
+class Php702Gearman < AbstractPhp702Extension
   init
   desc "PHP wrapper to libgearman"
   homepage "https://github.com/wcgallego/pecl-gearman"

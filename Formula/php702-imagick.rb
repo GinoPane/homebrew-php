@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Imagick < AbstractPHP702Extension
+class Php702Imagick < AbstractPhp702Extension
   init
   desc "Provides a wrapper to the ImageMagick library."
   homepage "https://pecl.php.net/package/imagick"

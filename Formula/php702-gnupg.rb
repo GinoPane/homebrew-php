@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Gnupg < AbstractPHP702Extension
+class Php702Gnupg < AbstractPhp702Extension
   init
   desc "Wrapper around the gpgme library"
   homepage "https://pecl.php.net/package/gnupg"

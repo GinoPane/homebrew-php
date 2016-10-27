@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Libsodium < AbstractPHP702Extension
+class Php702Libsodium < AbstractPhp702Extension
   init
   desc "Modern and easy-to-use crypto library"
   homepage "https://github.com/jedisct1/libsodium-php"

@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Lzf < AbstractPHP702Extension
+class Php702Lzf < AbstractPhp702Extension
   init
   desc "handles LZF de/compression"
   homepage "https://pecl.php.net/package/lzf"

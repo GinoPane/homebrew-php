@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class PHP702Lz4 < AbstractPHP702Extension
+class Php702Lz4 < AbstractPhp702Extension
   init
   desc "Handles LZ4 de/compression"
   homepage "https://github.com/kjdev/php-ext-lz4"
