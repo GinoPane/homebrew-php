@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Memcached < AbstractPhp70Extension
+class PHP702Memcached < AbstractPHP702Extension
   init
   desc "Memcached via libmemcached library"
   homepage "https://pecl.php.net/package/memcached"
@@ -9,7 +9,7 @@ class Php70Memcached < AbstractPhp70Extension
   option "with-sasl", "Build with sasl support"
 
   depends_on "pkg-config" => :build
-  depends_on "php70-igbinary"
+  depends_on "PHP702-igbinary"
   depends_on "igbinary" => :build
   if build.with? "sasl"
     depends_on "libmemcached" => "with-sasl"

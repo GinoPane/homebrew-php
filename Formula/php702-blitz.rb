@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70Blitz < AbstractPhp70Extension
+class PHP702Blitz < AbstractPHP702Extension
   init
   desc "Blitz, the fasted template engine for PHP!"
   homepage "http://alexeyrybak.com/blitz/blitz_en.html"

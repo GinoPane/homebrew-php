@@ -1,6 +1,6 @@
 require File.expand_path("../../Abstract/abstract-php-extension", __FILE__)
 
-class Php70PdoPgsql < AbstractPhp70Extension
+class PHP702PdoPgsql < AbstractPHP702Extension
   init
   desc "A unified PostgreSQL driver for PDO"
   homepage "https://github.com/php/php-src/tree/master/ext/pdo_pgsql"
